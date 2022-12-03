@@ -96,3 +96,11 @@ $$
 \sigma_2\sigma_1 & \sigma^2 {_2} 
 \end{pmatrix} \right)
 $$
+
+- `Variance` refers to the spread of a data set around its mean value.
+- `covariance` refers to the measure of the directional relationship between two random variables.
+
+# Bivariate NOrmal distribution
+
+$$f\left(x\right)=\frac{\exp \left(\frac{-1}{2}(X-\mu)^{T} \Sigma^{-1}(X-\mu)\right)}{2 \pi|\Sigma|^{\frac{1}{2}}}$$
+
