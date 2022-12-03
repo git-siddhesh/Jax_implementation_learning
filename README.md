@@ -67,3 +67,32 @@ It is a decomposition of a Hermitian (positive-definite) matrix into the product
 [-8 5 3]           [0 0 3]
 ```
 
+# Variance v/s Covariance
+
+$$
+\begin{aligned}
+& \text { }\\
+&\begin{array}{cc}
+\hline \hline \text { Variance } & \text { Covariance }  \\
+\hline T(x{_i}-\mu)^2 & T((x{_1}{_i}-\mu{_1})(x{_2}{_i}-\mu{_2}))\\
+% 2 & 47 & 877 & 230 \\
+% 3 & 31 & 25 & 415 \\
+% 4 & 35 & 144 & 23656 \\
+% 5 & 45 & 300 & 556 \\
+\hline
+\end{array}
+\end{aligned}
+$$
+
+$$
+\begin{pmatrix}
+ X_1 \\
+ X_2
+\end{pmatrix}  \sim \mathcal{N} \left( \begin{pmatrix}
+ \mu_1 \\
+ \mu_2
+\end{pmatrix} , \begin{pmatrix}
+ \sigma^2 {_1} & \sigma_1\sigma_2\\
+\sigma_2\sigma_1 & \sigma^2 {_2} 
+\end{pmatrix} \right)
+$$
